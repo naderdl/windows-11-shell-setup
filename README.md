@@ -2,6 +2,10 @@
 
 My PowerShell, Starship, and Windows Terminal configuration for Windows 11 devices. This repository contains configuration, not installers or application data.
 
+![Windows Terminal showing the Starship prompt](assets/terminal.png)
+
+Example from one device; the hostname in the prompt changes with the machine.
+
 ## Installed tools
 
 - PowerShell 7 in Windows Terminal
