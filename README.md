@@ -10,6 +10,23 @@ My PowerShell, Starship, and Windows Terminal configuration for Windows 11 devic
 - zoxide, Atuin, and eza
 - JetBrainsMono Nerd Font (selected in Windows Terminal; install the font separately when restoring)
 
+## Winget installs
+
+These are the install commands recorded in this device's PowerShell history for the shell setup:
+
+```powershell
+winget install --id Microsoft.PowerShell --source winget --installer-type wix
+winget install --id Starship.Starship
+winget install --id ajeetdsouza.zoxide -e
+winget install --id junegunn.fzf -e
+winget install -e Atuinsh.Atuin
+winget install --id rsteube.Carapace -e
+winget install --id DEVCOM.JetBrainsMonoNerdFont -e
+winget install -e --id eza-community.eza
+```
+
+PSFzf was installed separately with `Install-Module PSFzf -Scope CurrentUser`. No Windows Terminal Winget install command was found in the available history.
+
 ## Keybindings
 
 - PSReadLine: `Ctrl+Down`/`Ctrl+Up` cycle suggestions; `Ctrl+Right` accepts the next word; `Tab` opens completion and `Shift+Tab` goes backward.
